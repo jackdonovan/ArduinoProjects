@@ -1,0 +1,1 @@
+This is a project that measures the current temp, and then sets neopixels colors to a specific color based on the temp.

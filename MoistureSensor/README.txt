@@ -1,0 +1,1 @@
+This is a project that measures the current humidity in soil via a moisture sensor. As the humidity increases, the color of the neo pixels changes from pink to a deep blue

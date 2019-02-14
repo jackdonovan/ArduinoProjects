@@ -1,0 +1,1 @@
+This is a project that uses the arduino mouse library to basically emulate a mouse. This is just a proof of concept project I made for testing.
