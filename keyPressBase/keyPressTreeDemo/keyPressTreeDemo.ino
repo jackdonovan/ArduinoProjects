@@ -6,7 +6,7 @@
 
 void setup(){
     // start Keyboard driver
-    Keyboard.begin()
+    Keyboard.begin();
 
 }
 
@@ -18,14 +18,13 @@ void loop(){
         Keyboard.press(KEY_LEFT_GUI);
         Keyboard.press('r');
         Keyboard.releaseAll();
-
         delay(100);
         // open command prompt as admin
         Keyboard.print("cmd");
         Keyboard.releaseAll();
         Keyboard.press(KEY_RETURN);
         Keyboard.releaseAll();
-        delay(1000);
+        delay(500);
 
         // went to documents directory as to make the tree command run quicker for demonstration purposes
         Keyboard.print("cd Documents");
