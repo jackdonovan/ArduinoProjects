@@ -44,7 +44,7 @@ void loop(){
         Keyboard.print("exit");
         Keyboard.releaseAll();
         Keyboard.press(KEY_RETURN);
-
+        Keyboard.releaseAll();
 
     }
 
